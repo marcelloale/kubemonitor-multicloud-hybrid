@@ -1,0 +1,11 @@
+prometheus:
+  enabled: true
+
+grafana:
+  enabled: false
+
+defaultRules:
+  create: true
+  disabled:
+    Watchdog: true
+    InfoInhibitor: true
